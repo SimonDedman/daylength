@@ -17,7 +17,7 @@ daylength <- function(
 # get timezones from latlongs
 tzs <- tz_lookup_coords(lat, lon)
 
-sundata <- data.frame(date = date,
+sundata <- data.frame(date = as.Date(date),
                       lat = lat,
                       lon = lon)
 
