@@ -1,6 +1,6 @@
 ## Daylength code
 ## Simon Dedman 24/4/2018 updated 19/6/2019
-## Fetches timezone for single or vector of lat/long combinations
+## Fetches timezone for single or vector of lat/long combinations,
 ## Then uses timezone, latlongs & date to calculate day length in hours & decimal minutes
 ## Timetine fetch uses package lutz, sunrise & sunset times uses package suncalc
 ## Pasting output as new columns preserves parent class i.e. POSIXct; pasting as
